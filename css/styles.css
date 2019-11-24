@@ -1,0 +1,83 @@
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+p {
+  color: white;
+}
+
+.spacer {
+  margin: 30px;
+}
+
+.wrapper {
+  height: 2000px;
+  width: 1000px;
+  margin: auto;
+  padding: 10px;
+  background-color: #BB86FC;
+
+}
+
+.navbar {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.header {
+  width: inherit;
+  height: 300px;
+  text-align: center;
+}
+
+#h-left {
+  float:left;
+  width: 300px;
+  text-align: center;
+
+}
+
+#h-right {
+  float: right;
+  width: 700px;
+  text-align: left;
+}
+
+#name {
+  color: white;
+}
+
+#profile-pic {
+  max-width: 70%;
+  max-height: 70%;
+  border-radius: 10%;
+  transition: transform .5s;
+
+}
+
+#profile-pic:hover {
+  transform: scale(1.3);
+}
+
+#icon {
+  width: 10%;
+  height: 10%;
+  margin: 25px;
+  transition: transform .5s;
+}
+
+#icon:hover {
+  transform: scale(2.0);
+}
